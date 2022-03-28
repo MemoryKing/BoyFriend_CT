@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pstrongread</string>
+	<string>pmasmake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#注释#&gt;
-@property(nonatomic, strong, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>[&lt;#       #&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7673BB72-6355-4D45-B6D7-E36B4A79C835</string>
+	<string>9BF02BB1-A41A-43DC-B9AD-E47702FA2CA9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong 只读属性</string>
+	<string>mas make</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
