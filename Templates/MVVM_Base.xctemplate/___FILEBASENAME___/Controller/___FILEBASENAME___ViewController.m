@@ -30,29 +30,28 @@
 
 #pragma mark - init
 /**** 视图初始化 ****/
--(void)initializeView{
+-(void)initializeView {
     
 }
 /**** 数据初始化 ****/
--(void)initializeViewData{
+-(void)initializeViewData {
     
 }
 /**** 事件绑定 ****/
--(void)bindControlEvent{
+-(void)bindControlEvent {
     
 }
+
+#pragma mark - Data
 
 
 #pragma mark - function
 
 
-#pragma mark - logical processing（逻辑处理）
+#pragma mark - private methods
 
 
-#pragma mark - Data
-
-
-#pragma mark - Event Response / IBActions
+#pragma mark - Event
 
 
 #pragma mark - Protocol / delegat

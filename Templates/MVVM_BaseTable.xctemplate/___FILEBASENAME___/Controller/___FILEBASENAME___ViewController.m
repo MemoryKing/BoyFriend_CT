@@ -49,16 +49,16 @@
     
 }
 
-#pragma mark - function
-
-
-#pragma mark - logical processing（逻辑处理）
-
-
 #pragma mark - Data
 
 
-#pragma mark - Event Response / IBActions
+#pragma mark - function
+
+
+#pragma mark - private methods
+
+
+#pragma mark - Event
 
 
 #pragma mark - Protocol / delegat

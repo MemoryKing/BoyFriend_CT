@@ -24,13 +24,22 @@
     
 }
 
-#pragma mark - function
-
-
 #pragma mark - Data
 
 
-#pragma mark - Event Response / IBActions
+#pragma mark - function
+
+
+#pragma mark - private methods
+
+
+#pragma mark - Event
+
+
+#pragma mark - Protocol / delegat
+
+
+#pragma mark - Notification
 
 
 #pragma mark - Setter
