@@ -4,8 +4,6 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-/// <#注释#>
-@property(nonatomic, strong) <#type#> *<#name#>;
 
 @end
 
@@ -22,7 +20,6 @@
 
 - (void)bf_setupWithData:(id)data {
     ___VARIABLE_productName___InfoModel  * infoModel = data;
-    <#赋值#>
     
 }
 
