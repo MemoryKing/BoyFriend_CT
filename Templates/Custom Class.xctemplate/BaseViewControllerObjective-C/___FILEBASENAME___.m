@@ -19,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initializeView];
-    [self initializeViewData];
     [self bindControlEvent];
+    [self initializeViewData];
     
 }
 
