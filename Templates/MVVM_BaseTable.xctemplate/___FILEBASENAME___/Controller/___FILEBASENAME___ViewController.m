@@ -35,17 +35,19 @@
 #pragma mark - init
 /**** 视图初始化 ****/
 -(void)initializeView {
+    [self.tableView registerClass:[___VARIABLE_productName___Cell class] forCellReuseIdentifier:___VARIABLE_productName___Cell.bf_reuseIdentifier];
     
 }
 
 /**** 数据初始化 ****/
 -(void)initializeViewData {
-    [self bindControlEventViewModel:self.productViewModel];
     [self refreshHeaderAction];
+    
 }
 
 /**** 事件绑定 ****/
 -(void)bindControlEvent {
+    [self bindControlEventViewModel:self.productViewModel];
     
 }
 

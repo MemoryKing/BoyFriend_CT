@@ -39,11 +39,12 @@
 }
 /**** 数据初始化 ****/
 -(void)initializeViewData {
-    [self bindControlEventViewModel:self.productViewModel];
     [self refreshHeaderAction];
+    
 }
 /**** 事件绑定 ****/
 -(void)bindControlEvent {
+    [self bindControlEventViewModel:self.productViewModel];
     
 }
 
